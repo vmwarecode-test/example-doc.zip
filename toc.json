@@ -1,0 +1,48 @@
+{
+    "name": "Top Level Document Page",
+    "url": "index.html",
+    "pages": [
+        {
+            "name": "level1 doc1",
+            "url": "level1-doc1.html"
+        },
+        {
+            "name": "level1 doc1 topic2",
+            "url": "level1-doc1.html#topic2"
+        },
+        {
+            "name": "Level1 doc3",
+            "url": "level1-doc3.html",
+            "pages" : [
+                {
+                    "name": "level 2 doc1",
+                    "url": "level2-doc1.html"
+                },
+                {
+                    "name": "level 2 doc2",
+                    "url": "level2-doc2.html",
+                    "pages": [
+                        {
+                            "name": "level 3 doc1",
+                            "url": "level3-doc1.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "level1 topic in subdir",
+            "url": "subdir/subdir-doc1.html",
+            "pages": [
+                {
+                    "name": "subdir 2 doc1",
+                    "url": "subdir/subdir2/subdir2-doc1.html"
+                },
+                {
+                    "name": "subdir 2 doc2",
+                    "url": "subdir/subdir2/subdir2-doc2.html"
+                }
+            ]
+        }
+    ]
+}
